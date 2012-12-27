@@ -1,0 +1,6 @@
+Models zijn deprecated & WebLab_Model bestaat niet meer.
+Er bestaat nu een klasse WebLab_Database die het beheren van
+de databanken op zich neemt.
+
+Er bestaat nu een klasse WebLab_Table die het beheren van
+tabellen toelaat. ( Hier is nog een beetje werk aan. )

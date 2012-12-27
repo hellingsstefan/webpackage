@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Existing files and folders
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^.*$ - [L]
+
+RewriteRule (cache|img|css|js)/(.+)$   www/$1/$2   [L]
+
+RewriteRule ^.*$   index.php   [L]

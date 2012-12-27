@@ -1,0 +1,51 @@
+{
+	"Application": {
+		"Loader": {
+			"name":		"Loader",
+			"location":	"Application/Loader.php",
+			"load": {
+				"WebLab_Loader_AddIn::init":	true,
+				"environment":					true,
+				"controlDispatcher":			true,
+				"shutdown":						true
+			},
+			
+			"includePaths": [
+				"Application",
+				"Application/Plugin"
+			]
+		},
+		
+		"Modules": {
+			"Aliasses": {
+				"":			"Index"
+			},
+			"Dispatcher": {
+				"Visit": {
+					"default":	"404",
+					"prefix": "Control"
+				}
+			}
+		},
+		
+		"Data": {
+			"DB": {
+				"main": {
+					"auto":			false,
+					"type":			"MySQLi",
+					"username":		"root",
+					"password":		"usbw",
+					"host":			"localhost",
+					"database":		"jsomersportfolio",
+					"port":			"3307",
+					"prefix":		""
+				}
+			}
+		},
+		
+		"Templates": {
+			"directory":		"Application/Template",
+			"extract_vars": 	true
+		}
+	}
+}
