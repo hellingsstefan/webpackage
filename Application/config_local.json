@@ -36,7 +36,7 @@
 					"username":		"root",
 					"password":		"usbw",
 					"host":			"localhost",
-					"database":		"jsomersportfolio",
+					"database":		"",
 					"port":			"3307",
 					"prefix":		""
 				}

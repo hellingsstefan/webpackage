@@ -24,9 +24,8 @@
 	
 		<div class="container">
 			<div class="row">
-				<h1 class="span12">
-					WebPackage activated!
-				</h1>
+				<h1 class="span12">Welcome to WebPackage!</h1>
+				<h2 class="span12">A Web-Lab Framework based package.</h2>
 			</div>
 		</div>
 	
