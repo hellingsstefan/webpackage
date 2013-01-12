@@ -1,0 +1,3 @@
+[submodule "WebLab"]
+	path = WebLab
+	url = https://github.com/hellingsstefan/WebLab_Framework.git
