@@ -4,6 +4,7 @@
 			"name":		"Loader",
 			"location":	"Application/Loader.php",
 			"load": {
+				"WebLab_Util_ShortHands::init": true,
 				"WebLab_Loader_AddIn::init":	true,
 				"environment":					true,
 				"controlDispatcher":			true,
@@ -36,9 +37,9 @@
 					"username":		"root",
 					"password":		"usbw",
 					"host":			"localhost",
-					"database":		"",
+					"database":		"webpackage",
 					"port":			"3307",
-					"prefix":		""
+					"prefix":		"webpackage_"
 				}
 			}
 		},

@@ -6,7 +6,7 @@
 		protected function environment() { // namen van deze methodes moeten niet meer geprefixed worden met _init
 			session_start();
 			
-			WebLab_Template::setRootTemplate( new WebLab_Template( 'main/index.php' ) );
+			WebLab_Template::setRootTemplate( new WebLab_Template( 'main/index' ) );
 		}
 		
 		protected function controlDispatcher() { // Deze worden aangegeven in uw config, zie Application -> Modules -> Loader -> loads

@@ -1,14 +1,11 @@
 <?php
 
-	include( 'WebLab/Framework.php' );
-	
-	$app = new WebLab_Application( 'Application/config_local.json' );
-	$app->run();
+	include( 'WebLab.phar' );
 
-	
-	/* preformated var_dump */
-	function v_dump( $param ){
-		echo '<pre>';
-		var_dump($param);
-		echo '</pre>';
-	}
+
+	$app = new WebLab_Application( 'Application/config_local.json' );
+
+	error_reporting( E_ALL );	
+
+
+	$app->run();
